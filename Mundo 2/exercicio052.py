@@ -1,5 +1,4 @@
 #Exercicio 52
-#Exercicio 52
 
 n = int(input('Escolha um número: '))
 total = 0

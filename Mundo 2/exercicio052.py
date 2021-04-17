@@ -17,7 +17,7 @@ for v in range(1, n+1):
 
 print(f'\033[34m O número {n} é divisivel {total} vezes')
 
-if total == 2 or total == 1:
+if total == 2 
     print('O número é primo')
 
 else:

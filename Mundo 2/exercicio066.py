@@ -4,8 +4,12 @@ quantidade = 0
 
 while número != 999:
     número = int(input('Digite um valor [Digite 999 para parar]: '))
+    
+    if número == 999:
+        break
+    
     quantidade += 1
     soma += número
 
 
-print(f'Você digitiu {quantidade - 1} números, e a soma de todos eles é igual a {soma - 999}')
+print(f'Você digitou {quantidade} números, e a soma de todos eles é igual a {soma}')

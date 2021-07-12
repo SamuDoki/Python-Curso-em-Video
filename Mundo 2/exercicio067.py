@@ -1,10 +1,17 @@
-while True:
-    número = int(input('Você quer a tabuada de que número? '))
-    
-    if número < 0:
-        print('Numero inválido')
-        break
+list_used_nums = []
 
-    else:
-        for c in range(1, 11):
-            print(f'{número} x {c} = {c*número}')
+while True:
+
+    num = int(input('Digite aqui o número que você quer para fazer a tabuada [Digite um número negativo para interomper] '))
+
+    if num < 0:
+        
+        break
+    
+    list_used_nums.append(num)
+
+    for c in range(1, 11):
+        print(f'{num} x {c} = {num * c}')
+    
+    
+print(f'Você usou as tabuadas dos números {list_used_nums}')

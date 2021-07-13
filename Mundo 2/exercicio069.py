@@ -44,7 +44,7 @@ for c in range(contador_pessoas):
         
     if lista_idade[c] < 20:
         if lista_genero[c] == 'f':
-            contador_mulheres_menor_idade
+            contador_mulheres_menor_idade += 1
         
     if lista_genero[c] == 'm':
         contador_homens += 1

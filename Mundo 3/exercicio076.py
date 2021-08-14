@@ -9,7 +9,7 @@ lista = ('Lápis', 1.75,
         'Livro', 34.90
         )
 
-print('--- LISTA DE PREÇOS ---')
+print('--- LISTAGEM DE PREÇOS ---')
     
 for check in range(0, len(lista)):
     if check % 2 == 0:
